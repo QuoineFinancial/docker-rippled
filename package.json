@@ -1,0 +1,8 @@
+{
+  "name": "docker-rippled",
+  "version": "1.0.0",
+  "description": "Build docker for rippled node",
+  "main": "index.js",
+  "author": "Anh Cao <anh.cao@quoine.com>",
+  "license": "MIT"
+}
