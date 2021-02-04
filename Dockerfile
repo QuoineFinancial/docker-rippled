@@ -20,6 +20,6 @@ RUN apt-get update -y && \
 
 RUN ln -s /opt/ripple/bin/rippled /usr/bin/rippled
 
-EXPOSE 80 443 5005 6006 51235
+EXPOSE 80 443 5005 6006 51235 51234
 
 ENTRYPOINT [ "/entrypoint.sh" ]

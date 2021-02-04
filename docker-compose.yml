@@ -1,0 +1,12 @@
+version: '3'
+services:
+  rippled:
+    container_name: rippled
+    build: .
+    ports:
+      # - "80:80"
+      - "8000:51234"
+    volumes:
+      - ./config:/config/ # Mount config
+      - ./data:/var/lib/rippled/ # Mount data, update if your path is different
+      - ./log:/var/log/rippled/ # Mount logs, update if your path is different
